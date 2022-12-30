@@ -1,2 +1,2 @@
 # scala-handson
-repository containing hands on while learning scala
+repository containing hands on code along with comments as explaination while learning scala
