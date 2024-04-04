@@ -167,7 +167,7 @@ object GenericListTest extends App {
   println(list.head)
   println(list.tail)
   println(list.tail.isEmpty)
-  val listOfIntegers: GenericMyList[Int] = new Cons(1, new Cons(2, new Cons(3, Empty)))
+   val listOfIntegers: GenericMyList[Int] = new Cons(1, new Cons(2, new Cons(3, Empty)))
   val anotherListOfIntegers: GenericMyList[Int] = new Cons(4, new Cons(5, Empty))
   val listOfStrings: GenericMyList[String] = new Cons("Hello", new Cons("Scala", Empty))
   println(listOfIntegers.toString)

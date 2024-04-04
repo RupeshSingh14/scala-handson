@@ -7,7 +7,7 @@ object Expressions extends App {
   println(x)
 
   println(2 + 3 * 5)
-  // + - * / & | ^ << >> >>> (right shift with zero extension)
+  // + - * / & (bitwise and) | (bit wise OR) ^ (bitwise exclusive OR) <<(bitwise left shift) >>(bitwise right shift) >>> (right shift with zero extension)
 
   println(1 == x)
   // == != > >= < <=

@@ -54,7 +54,7 @@ object Inheritance extends App {
   unknownAnimal.eat
 
   //preventing overrides
-  //1. use final on members - vals, methods
+  //1. use final on members -  methods
   //2. use final on the entire class to prevent it from being overridden
   //3. seal the class using "Inheritance" keyword so that only other class within this file can override
 

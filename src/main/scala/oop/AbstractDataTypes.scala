@@ -9,7 +9,7 @@ object AbstractDataTypes extends App{
   }
 
   class Dog extends Animal {
-    override val creatureType: String = "Golden Retriever" // keyword override is not mandatory here
+    override val creatureType: String = "Golden Retriever" // keyword override is not mandatory
     override def eat: Unit = println("crunch crunch")
   }
 

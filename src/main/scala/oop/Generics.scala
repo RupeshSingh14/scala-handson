@@ -4,7 +4,7 @@ package oop
 object Generics extends App{
 
   class MyList[+A] { //traits can also be defined like this
-    //use the type A
+    //use the type A inside the class definition
     def add[B >: A](element: B): MyList[B] = ??? // if to a list of A type elements, you add B type of elements
     //where B is supertype of A, then list will turn into list of B type
     /*

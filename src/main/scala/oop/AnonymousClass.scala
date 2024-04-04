@@ -32,9 +32,7 @@ object AnonymousClass extends App{
 
   //we can instantiate and override fields and methods on the spot
   //we need to pass the required constructor arguments if needed
-  //anonymous class works for traits and we as classes(abstract or non abstract both)
-
-
+  //anonymous class works for traits and classes(abstract or non abstract both)
 
 
 
